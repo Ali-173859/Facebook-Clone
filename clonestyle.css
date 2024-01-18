@@ -81,7 +81,7 @@ margin-top: -5%;
      margin-top: 4px;
      height: 50px;
      border-radius: 7px;
-     border-color : rgba(0,0,0,0.2);
+     border-color : rgba(0,0,0,0);
      font-size: 20px;
 }
 
@@ -111,7 +111,12 @@ margin-top: -5%;
     font-size: 16px;
 }
 
-
+.btn2:hover{
+    background-color: darkgreen;
+}
+.btn1:hover{
+    background-color: darkblue;
+}
 
 }
 
@@ -129,3 +134,76 @@ margin-top: -5%;
     
 }
 
+
+
+
+footer{
+    
+    position: absolute;
+    bottom: -30%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    height: auto;
+    width: 100vw;
+    
+
+}
+ 
+
+
+   .div2{
+  
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+ height: 100%;
+ text-align: center;
+ justify-content: center;
+    }
+   
+
+.bsab2{
+  
+    padding: 10px;
+    font-size: 14px;  
+}
+.eng{
+    color: gray;
+    text-align: center;}
+.hline{
+    width: 20%;
+    
+    margin: -1% ;
+    padding-right: 22%;
+    margin-right:-8%;
+}
+
+.bsab{
+    display: inline-flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 3px;
+    padding-left: 10px;
+    font-size: 14px;
+    
+}
+
+
+
+.bsend{
+    color: gray;
+}
+
+
+.main5{
+    height: 100%;
+justify-content: center;
+padding-left: 29.5%;
+}
+.bsend2{
+    color: gray;
+    height: 100%;
+    text-align: center;
+    padding-left: 33%;
+}
